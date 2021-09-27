@@ -1,0 +1,17 @@
+---
+- hosts: all
+  become: true
+  
+  vars_files:
+  - myusers.yml
+
+  tasks:
+  - name: Creating a user with name "{{myuser1}}"
+    user: 
+      name: "{{myuser1}}" 
+ 
+  - name: Creating a user with name "{{myuser2}}"
+    user:
+      name: "{{myuser2}}"
+
+

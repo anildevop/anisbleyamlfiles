@@ -439,3 +439,60 @@ clear
 ls
 cp handlers.yml conditions.yml
 cat conditions.yml
+clear
+cat conditions.yml
+vi conditions.yml
+anisble-playbook conditions.yml --check
+ansible-playbook conditions.yml --check
+clear
+cat conditions.yml
+ansible-playbook conditions.yml
+clear
+git add .
+git status
+git commit -m conditions.yml
+git push -u origin main
+ls .ssh/
+cat .ssh/id_rsa.pub
+git push -u origin main
+clear
+ls
+cp createuser.yml variablesusers.yml
+vi variablesusers.yml
+clear
+cat  variablesusers.yml
+ansible-playbook variableusers.yml
+ansible-playbook variablesusers.yml
+ansible all -a "ls" -b
+clear
+ansible all -a "ls /etc/passwd" -b
+ansible all -a " "
+clear
+ansible all -a "tail -2  /etc/passwd"
+cp variablesusers.yml variablesusers1.yml
+vi variablesusers1.yml
+ansible-playbook variablesusers1.yml --check
+vi variablesusers1.yml
+ansible-playbook variablesusers1.yml
+vi variablesusers1.yml
+clear
+cat variablesusers1.yml
+ansible-playbook variablesusers1.yml
+ansible all -a "tail -2  /etc/passwd"
+clear
+vi myusers.yml
+cat  myusers.yml
+vi variablesusers1.yml
+cat  myusers.yml
+clear
+cat  myusers.yml
+cp variablesusers1.yml  variablefileusers.yml
+cat variablefileusers.yml
+ansible-playbook variablefileusers.yml
+vi variablefileusers.yml
+vi myusers.yml
+cat  myusers.yml
+cat variablefileusers.yml
+ansible-playbook variablefileusers.yml
+ansible all -a "tail -2  /etc/passwd"
+clear

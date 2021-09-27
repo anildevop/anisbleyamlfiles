@@ -12,7 +12,7 @@
 ~H
 # Command Line History (newest to oldest):
 :wq!
-|2,0,1632750117,,"wq!"
+|2,0,1632763599,,"wq!"
 :q!
 |2,0,1632668764,,"q!"
 :wq
@@ -27,232 +27,350 @@
 # Debug Line History (newest to oldest):
 
 # Registers:
+""-	CHAR	0
+	s
+|3,1,36,0,1,0,1632753347,"s"
 
 # File marks:
-'0  39  38  ~/conditions.yml
-|4,48,39,38,1632750117,"~/conditions.yml"
-'1  7  17  ~/testmultiuser.yml
-|4,49,7,17,1632739558,"~/testmultiuser.yml"
-'2  7  14  ~/uninstallingmultiplepackages.yml
-|4,50,7,14,1632729207,"~/uninstallingmultiplepackages.yml"
-'3  7  19  ~/installingmultiplepackages.yml
-|4,51,7,19,1632728975,"~/installingmultiplepackages.yml"
-'4  13  0  ~/multihandlers.yml
-|4,52,13,0,1632670609,"~/multihandlers.yml"
-'5  12  38  ~/multihandlers.yml
-|4,53,12,38,1632670484,"~/multihandlers.yml"
-'6  14  1  ~/multihandlers.yml
-|4,54,14,1,1632670484,"~/multihandlers.yml"
-'7  12  35  ~/multihandlers.yml
-|4,55,12,35,1632670322,"~/multihandlers.yml"
-'8  12  35  ~/multihandlers.yml
-|4,56,12,35,1632670322,"~/multihandlers.yml"
-'9  13  0  ~/multihandlers.yml
-|4,57,13,0,1632670322,"~/multihandlers.yml"
+'0  40  0  ~/setuptomcat.yml
+|4,48,40,0,1632763599,"~/setuptomcat.yml"
+'1  36  14  ~/setuptomcat.yml
+|4,49,36,14,1632763255,"~/setuptomcat.yml"
+'2  36  14  ~/setuptomcat.yml
+|4,50,36,14,1632763255,"~/setuptomcat.yml"
+'3  38  5  ~/setuptomcat.yml
+|4,51,38,5,1632763182,"~/setuptomcat.yml"
+'4  38  5  ~/setuptomcat.yml
+|4,52,38,5,1632763182,"~/setuptomcat.yml"
+'5  38  5  ~/setuptomcat.yml
+|4,53,38,5,1632763182,"~/setuptomcat.yml"
+'6  38  5  ~/setuptomcat.yml
+|4,54,38,5,1632763182,"~/setuptomcat.yml"
+'7  39  43  ~/setuptomcat.yml
+|4,55,39,43,1632763001,"~/setuptomcat.yml"
+'8  39  43  ~/setuptomcat.yml
+|4,56,39,43,1632763001,"~/setuptomcat.yml"
+'9  39  43  ~/setuptomcat.yml
+|4,57,39,43,1632763001,"~/setuptomcat.yml"
 
 # Jumplist (newest first):
--'  39  38  ~/conditions.yml
-|4,39,39,38,1632750117,"~/conditions.yml"
--'  1  0  ~/conditions.yml
-|4,39,1,0,1632749427,"~/conditions.yml"
--'  7  17  ~/testmultiuser.yml
-|4,39,7,17,1632739558,"~/testmultiuser.yml"
--'  7  17  ~/testmultiuser.yml
-|4,39,7,17,1632739558,"~/testmultiuser.yml"
--'  1  0  ~/testmultiuser.yml
-|4,39,1,0,1632739519,"~/testmultiuser.yml"
--'  1  0  ~/testmultiuser.yml
-|4,39,1,0,1632739519,"~/testmultiuser.yml"
--'  7  14  ~/uninstallingmultiplepackages.yml
-|4,39,7,14,1632729207,"~/uninstallingmultiplepackages.yml"
--'  7  14  ~/uninstallingmultiplepackages.yml
-|4,39,7,14,1632729207,"~/uninstallingmultiplepackages.yml"
--'  7  14  ~/uninstallingmultiplepackages.yml
-|4,39,7,14,1632729207,"~/uninstallingmultiplepackages.yml"
--'  7  14  ~/uninstallingmultiplepackages.yml
-|4,39,7,14,1632729207,"~/uninstallingmultiplepackages.yml"
--'  1  0  ~/uninstallingmultiplepackages.yml
-|4,39,1,0,1632729173,"~/uninstallingmultiplepackages.yml"
--'  1  0  ~/uninstallingmultiplepackages.yml
-|4,39,1,0,1632729173,"~/uninstallingmultiplepackages.yml"
--'  1  0  ~/uninstallingmultiplepackages.yml
-|4,39,1,0,1632729173,"~/uninstallingmultiplepackages.yml"
--'  1  0  ~/uninstallingmultiplepackages.yml
-|4,39,1,0,1632729173,"~/uninstallingmultiplepackages.yml"
--'  7  19  ~/installingmultiplepackages.yml
-|4,39,7,19,1632728975,"~/installingmultiplepackages.yml"
--'  7  19  ~/installingmultiplepackages.yml
-|4,39,7,19,1632728975,"~/installingmultiplepackages.yml"
--'  7  19  ~/installingmultiplepackages.yml
-|4,39,7,19,1632728975,"~/installingmultiplepackages.yml"
--'  7  19  ~/installingmultiplepackages.yml
-|4,39,7,19,1632728975,"~/installingmultiplepackages.yml"
--'  7  19  ~/installingmultiplepackages.yml
-|4,39,7,19,1632728975,"~/installingmultiplepackages.yml"
--'  7  19  ~/installingmultiplepackages.yml
-|4,39,7,19,1632728975,"~/installingmultiplepackages.yml"
--'  7  19  ~/installingmultiplepackages.yml
-|4,39,7,19,1632728975,"~/installingmultiplepackages.yml"
--'  7  19  ~/installingmultiplepackages.yml
-|4,39,7,19,1632728975,"~/installingmultiplepackages.yml"
--'  1  0  ~/installingmultiplepackages.yml
-|4,39,1,0,1632728912,"~/installingmultiplepackages.yml"
--'  1  0  ~/installingmultiplepackages.yml
-|4,39,1,0,1632728912,"~/installingmultiplepackages.yml"
--'  1  0  ~/installingmultiplepackages.yml
-|4,39,1,0,1632728912,"~/installingmultiplepackages.yml"
--'  1  0  ~/installingmultiplepackages.yml
-|4,39,1,0,1632728912,"~/installingmultiplepackages.yml"
--'  1  0  ~/installingmultiplepackages.yml
-|4,39,1,0,1632728912,"~/installingmultiplepackages.yml"
--'  1  0  ~/installingmultiplepackages.yml
-|4,39,1,0,1632728912,"~/installingmultiplepackages.yml"
--'  1  0  ~/installingmultiplepackages.yml
-|4,39,1,0,1632728912,"~/installingmultiplepackages.yml"
--'  1  0  ~/installingmultiplepackages.yml
-|4,39,1,0,1632728912,"~/installingmultiplepackages.yml"
--'  13  0  ~/multihandlers.yml
-|4,39,13,0,1632670609,"~/multihandlers.yml"
--'  13  0  ~/multihandlers.yml
-|4,39,13,0,1632670609,"~/multihandlers.yml"
--'  13  0  ~/multihandlers.yml
-|4,39,13,0,1632670609,"~/multihandlers.yml"
--'  13  0  ~/multihandlers.yml
-|4,39,13,0,1632670609,"~/multihandlers.yml"
--'  13  0  ~/multihandlers.yml
-|4,39,13,0,1632670609,"~/multihandlers.yml"
--'  13  0  ~/multihandlers.yml
-|4,39,13,0,1632670609,"~/multihandlers.yml"
--'  13  0  ~/multihandlers.yml
-|4,39,13,0,1632670609,"~/multihandlers.yml"
--'  13  0  ~/multihandlers.yml
-|4,39,13,0,1632670609,"~/multihandlers.yml"
--'  13  0  ~/multihandlers.yml
-|4,39,13,0,1632670609,"~/multihandlers.yml"
--'  13  0  ~/multihandlers.yml
-|4,39,13,0,1632670609,"~/multihandlers.yml"
--'  13  0  ~/multihandlers.yml
-|4,39,13,0,1632670609,"~/multihandlers.yml"
--'  13  0  ~/multihandlers.yml
-|4,39,13,0,1632670609,"~/multihandlers.yml"
--'  13  0  ~/multihandlers.yml
-|4,39,13,0,1632670609,"~/multihandlers.yml"
--'  13  0  ~/multihandlers.yml
-|4,39,13,0,1632670609,"~/multihandlers.yml"
--'  13  0  ~/multihandlers.yml
-|4,39,13,0,1632670609,"~/multihandlers.yml"
--'  13  0  ~/multihandlers.yml
-|4,39,13,0,1632670609,"~/multihandlers.yml"
--'  12  38  ~/multihandlers.yml
-|4,39,12,38,1632670529,"~/multihandlers.yml"
--'  12  38  ~/multihandlers.yml
-|4,39,12,38,1632670529,"~/multihandlers.yml"
--'  12  38  ~/multihandlers.yml
-|4,39,12,38,1632670529,"~/multihandlers.yml"
--'  12  38  ~/multihandlers.yml
-|4,39,12,38,1632670529,"~/multihandlers.yml"
--'  12  38  ~/multihandlers.yml
-|4,39,12,38,1632670529,"~/multihandlers.yml"
--'  12  38  ~/multihandlers.yml
-|4,39,12,38,1632670529,"~/multihandlers.yml"
--'  12  38  ~/multihandlers.yml
-|4,39,12,38,1632670529,"~/multihandlers.yml"
--'  12  38  ~/multihandlers.yml
-|4,39,12,38,1632670529,"~/multihandlers.yml"
--'  12  38  ~/multihandlers.yml
-|4,39,12,38,1632670529,"~/multihandlers.yml"
--'  12  38  ~/multihandlers.yml
-|4,39,12,38,1632670529,"~/multihandlers.yml"
--'  12  38  ~/multihandlers.yml
-|4,39,12,38,1632670529,"~/multihandlers.yml"
--'  12  38  ~/multihandlers.yml
-|4,39,12,38,1632670529,"~/multihandlers.yml"
--'  12  38  ~/multihandlers.yml
-|4,39,12,38,1632670529,"~/multihandlers.yml"
--'  12  38  ~/multihandlers.yml
-|4,39,12,38,1632670529,"~/multihandlers.yml"
--'  12  38  ~/multihandlers.yml
-|4,39,12,38,1632670529,"~/multihandlers.yml"
--'  12  38  ~/multihandlers.yml
-|4,39,12,38,1632670529,"~/multihandlers.yml"
--'  14  1  ~/multihandlers.yml
-|4,39,14,1,1632670484,"~/multihandlers.yml"
--'  14  1  ~/multihandlers.yml
-|4,39,14,1,1632670484,"~/multihandlers.yml"
--'  14  1  ~/multihandlers.yml
-|4,39,14,1,1632670484,"~/multihandlers.yml"
--'  14  1  ~/multihandlers.yml
-|4,39,14,1,1632670484,"~/multihandlers.yml"
--'  14  1  ~/multihandlers.yml
-|4,39,14,1,1632670484,"~/multihandlers.yml"
--'  14  1  ~/multihandlers.yml
-|4,39,14,1,1632670484,"~/multihandlers.yml"
--'  14  1  ~/multihandlers.yml
-|4,39,14,1,1632670484,"~/multihandlers.yml"
--'  14  1  ~/multihandlers.yml
-|4,39,14,1,1632670484,"~/multihandlers.yml"
--'  14  1  ~/multihandlers.yml
-|4,39,14,1,1632670484,"~/multihandlers.yml"
--'  14  1  ~/multihandlers.yml
-|4,39,14,1,1632670484,"~/multihandlers.yml"
--'  14  1  ~/multihandlers.yml
-|4,39,14,1,1632670484,"~/multihandlers.yml"
--'  14  1  ~/multihandlers.yml
-|4,39,14,1,1632670484,"~/multihandlers.yml"
--'  14  1  ~/multihandlers.yml
-|4,39,14,1,1632670484,"~/multihandlers.yml"
--'  14  1  ~/multihandlers.yml
-|4,39,14,1,1632670484,"~/multihandlers.yml"
--'  14  1  ~/multihandlers.yml
-|4,39,14,1,1632670484,"~/multihandlers.yml"
--'  14  1  ~/multihandlers.yml
-|4,39,14,1,1632670484,"~/multihandlers.yml"
--'  13  0  ~/multihandlers.yml
-|4,39,13,0,1632670455,"~/multihandlers.yml"
--'  13  0  ~/multihandlers.yml
-|4,39,13,0,1632670455,"~/multihandlers.yml"
--'  13  0  ~/multihandlers.yml
-|4,39,13,0,1632670455,"~/multihandlers.yml"
--'  13  0  ~/multihandlers.yml
-|4,39,13,0,1632670455,"~/multihandlers.yml"
--'  13  0  ~/multihandlers.yml
-|4,39,13,0,1632670455,"~/multihandlers.yml"
--'  13  0  ~/multihandlers.yml
-|4,39,13,0,1632670455,"~/multihandlers.yml"
--'  13  0  ~/multihandlers.yml
-|4,39,13,0,1632670455,"~/multihandlers.yml"
--'  13  0  ~/multihandlers.yml
-|4,39,13,0,1632670455,"~/multihandlers.yml"
--'  13  0  ~/multihandlers.yml
-|4,39,13,0,1632670455,"~/multihandlers.yml"
--'  13  0  ~/multihandlers.yml
-|4,39,13,0,1632670455,"~/multihandlers.yml"
--'  13  0  ~/multihandlers.yml
-|4,39,13,0,1632670455,"~/multihandlers.yml"
--'  13  0  ~/multihandlers.yml
-|4,39,13,0,1632670455,"~/multihandlers.yml"
--'  13  0  ~/multihandlers.yml
-|4,39,13,0,1632670455,"~/multihandlers.yml"
--'  13  0  ~/multihandlers.yml
-|4,39,13,0,1632670455,"~/multihandlers.yml"
--'  13  0  ~/multihandlers.yml
-|4,39,13,0,1632670455,"~/multihandlers.yml"
--'  13  0  ~/multihandlers.yml
-|4,39,13,0,1632670455,"~/multihandlers.yml"
--'  13  0  ~/multihandlers.yml
-|4,39,13,0,1632670322,"~/multihandlers.yml"
--'  13  0  ~/multihandlers.yml
-|4,39,13,0,1632670322,"~/multihandlers.yml"
--'  13  0  ~/multihandlers.yml
-|4,39,13,0,1632670322,"~/multihandlers.yml"
--'  13  0  ~/multihandlers.yml
-|4,39,13,0,1632670322,"~/multihandlers.yml"
--'  13  0  ~/multihandlers.yml
-|4,39,13,0,1632670322,"~/multihandlers.yml"
--'  13  0  ~/multihandlers.yml
-|4,39,13,0,1632670322,"~/multihandlers.yml"
+-'  40  0  ~/setuptomcat.yml
+|4,39,40,0,1632763599,"~/setuptomcat.yml"
+-'  36  14  ~/setuptomcat.yml
+|4,39,36,14,1632763319,"~/setuptomcat.yml"
+-'  36  14  ~/setuptomcat.yml
+|4,39,36,14,1632763255,"~/setuptomcat.yml"
+-'  38  5  ~/setuptomcat.yml
+|4,39,38,5,1632763232,"~/setuptomcat.yml"
+-'  38  5  ~/setuptomcat.yml
+|4,39,38,5,1632763232,"~/setuptomcat.yml"
+-'  38  5  ~/setuptomcat.yml
+|4,39,38,5,1632763182,"~/setuptomcat.yml"
+-'  39  43  ~/setuptomcat.yml
+|4,39,39,43,1632763001,"~/setuptomcat.yml"
+-'  39  43  ~/setuptomcat.yml
+|4,39,39,43,1632763001,"~/setuptomcat.yml"
+-'  39  43  ~/setuptomcat.yml
+|4,39,39,43,1632763001,"~/setuptomcat.yml"
+-'  31  35  ~/setuptomcat.yml
+|4,39,31,35,1632762652,"~/setuptomcat.yml"
+-'  31  35  ~/setuptomcat.yml
+|4,39,31,35,1632762652,"~/setuptomcat.yml"
+-'  31  35  ~/setuptomcat.yml
+|4,39,31,35,1632762652,"~/setuptomcat.yml"
+-'  31  35  ~/setuptomcat.yml
+|4,39,31,35,1632762652,"~/setuptomcat.yml"
+-'  32  35  ~/setuptomcat.yml
+|4,39,32,35,1632762589,"~/setuptomcat.yml"
+-'  32  35  ~/setuptomcat.yml
+|4,39,32,35,1632762589,"~/setuptomcat.yml"
+-'  32  35  ~/setuptomcat.yml
+|4,39,32,35,1632762589,"~/setuptomcat.yml"
+-'  32  35  ~/setuptomcat.yml
+|4,39,32,35,1632762589,"~/setuptomcat.yml"
+-'  40  39  ~/setuptomcat.yml
+|4,39,40,39,1632762550,"~/setuptomcat.yml"
+-'  39  39  ~/setuptomcat.yml
+|4,39,39,39,1632762550,"~/setuptomcat.yml"
+-'  40  39  ~/setuptomcat.yml
+|4,39,40,39,1632762550,"~/setuptomcat.yml"
+-'  40  39  ~/setuptomcat.yml
+|4,39,40,39,1632762513,"~/setuptomcat.yml"
+-'  1  2  ~/setuptomcat.yml
+|4,39,1,2,1632762475,"~/setuptomcat.yml"
+-'  1  2  ~/setuptomcat.yml
+|4,39,1,2,1632762475,"~/setuptomcat.yml"
+-'  1  2  ~/setuptomcat.yml
+|4,39,1,2,1632762475,"~/setuptomcat.yml"
+-'  1  2  ~/setuptomcat.yml
+|4,39,1,2,1632762475,"~/setuptomcat.yml"
+-'  1  2  ~/setuptomcat.yml
+|4,39,1,2,1632762475,"~/setuptomcat.yml"
+-'  1  2  ~/setuptomcat.yml
+|4,39,1,2,1632762475,"~/setuptomcat.yml"
+-'  1  2  ~/setuptomcat.yml
+|4,39,1,2,1632762332,"~/setuptomcat.yml"
+-'  2  12  ~/myusers.yml
+|4,39,2,12,1632753808,"~/myusers.yml"
+-'  2  12  ~/myusers.yml
+|4,39,2,12,1632753808,"~/myusers.yml"
+-'  2  12  ~/myusers.yml
+|4,39,2,12,1632753808,"~/myusers.yml"
+-'  2  12  ~/myusers.yml
+|4,39,2,12,1632753808,"~/myusers.yml"
+-'  2  12  ~/myusers.yml
+|4,39,2,12,1632753808,"~/myusers.yml"
+-'  2  12  ~/myusers.yml
+|4,39,2,12,1632753808,"~/myusers.yml"
+-'  2  12  ~/myusers.yml
+|4,39,2,12,1632753808,"~/myusers.yml"
+-'  2  12  ~/myusers.yml
+|4,39,2,12,1632753808,"~/myusers.yml"
+-'  2  12  ~/myusers.yml
+|4,39,2,12,1632753808,"~/myusers.yml"
+-'  2  12  ~/myusers.yml
+|4,39,2,12,1632753808,"~/myusers.yml"
+-'  2  12  ~/myusers.yml
+|4,39,2,12,1632753808,"~/myusers.yml"
+-'  2  12  ~/myusers.yml
+|4,39,2,12,1632753808,"~/myusers.yml"
+-'  2  12  ~/myusers.yml
+|4,39,2,12,1632753808,"~/myusers.yml"
+-'  2  12  ~/myusers.yml
+|4,39,2,12,1632753808,"~/myusers.yml"
+-'  2  12  ~/myusers.yml
+|4,39,2,12,1632753808,"~/myusers.yml"
+-'  2  12  ~/myusers.yml
+|4,39,2,12,1632753808,"~/myusers.yml"
+-'  2  12  ~/myusers.yml
+|4,39,2,12,1632753808,"~/myusers.yml"
+-'  2  12  ~/myusers.yml
+|4,39,2,12,1632753808,"~/myusers.yml"
+-'  2  12  ~/myusers.yml
+|4,39,2,12,1632753808,"~/myusers.yml"
+-'  2  12  ~/myusers.yml
+|4,39,2,12,1632753808,"~/myusers.yml"
+-'  2  12  ~/myusers.yml
+|4,39,2,12,1632753808,"~/myusers.yml"
+-'  2  12  ~/myusers.yml
+|4,39,2,12,1632753808,"~/myusers.yml"
+-'  2  12  ~/myusers.yml
+|4,39,2,12,1632753808,"~/myusers.yml"
+-'  2  12  ~/myusers.yml
+|4,39,2,12,1632753808,"~/myusers.yml"
+-'  2  12  ~/myusers.yml
+|4,39,2,12,1632753808,"~/myusers.yml"
+-'  2  12  ~/myusers.yml
+|4,39,2,12,1632753808,"~/myusers.yml"
+-'  2  12  ~/myusers.yml
+|4,39,2,12,1632753808,"~/myusers.yml"
+-'  2  12  ~/myusers.yml
+|4,39,2,12,1632753808,"~/myusers.yml"
+-'  2  12  ~/myusers.yml
+|4,39,2,12,1632753808,"~/myusers.yml"
+-'  2  12  ~/myusers.yml
+|4,39,2,12,1632753808,"~/myusers.yml"
+-'  2  12  ~/myusers.yml
+|4,39,2,12,1632753808,"~/myusers.yml"
+-'  2  12  ~/myusers.yml
+|4,39,2,12,1632753808,"~/myusers.yml"
+-'  2  12  ~/myusers.yml
+|4,39,2,12,1632753808,"~/myusers.yml"
+-'  2  12  ~/myusers.yml
+|4,39,2,12,1632753808,"~/myusers.yml"
+-'  2  12  ~/myusers.yml
+|4,39,2,12,1632753808,"~/myusers.yml"
+-'  2  12  ~/myusers.yml
+|4,39,2,12,1632753808,"~/myusers.yml"
+-'  2  12  ~/myusers.yml
+|4,39,2,12,1632753808,"~/myusers.yml"
+-'  2  12  ~/myusers.yml
+|4,39,2,12,1632753808,"~/myusers.yml"
+-'  2  12  ~/myusers.yml
+|4,39,2,12,1632753808,"~/myusers.yml"
+-'  2  12  ~/myusers.yml
+|4,39,2,12,1632753808,"~/myusers.yml"
+-'  2  12  ~/myusers.yml
+|4,39,2,12,1632753808,"~/myusers.yml"
+-'  2  12  ~/myusers.yml
+|4,39,2,12,1632753808,"~/myusers.yml"
+-'  2  12  ~/myusers.yml
+|4,39,2,12,1632753808,"~/myusers.yml"
+-'  2  12  ~/myusers.yml
+|4,39,2,12,1632753808,"~/myusers.yml"
+-'  2  12  ~/myusers.yml
+|4,39,2,12,1632753808,"~/myusers.yml"
+-'  2  12  ~/myusers.yml
+|4,39,2,12,1632753808,"~/myusers.yml"
+-'  2  12  ~/myusers.yml
+|4,39,2,12,1632753808,"~/myusers.yml"
+-'  2  12  ~/myusers.yml
+|4,39,2,12,1632753808,"~/myusers.yml"
+-'  2  12  ~/myusers.yml
+|4,39,2,12,1632753808,"~/myusers.yml"
+-'  2  12  ~/myusers.yml
+|4,39,2,12,1632753808,"~/myusers.yml"
+-'  2  12  ~/myusers.yml
+|4,39,2,12,1632753808,"~/myusers.yml"
+-'  2  12  ~/myusers.yml
+|4,39,2,12,1632753808,"~/myusers.yml"
+-'  2  12  ~/myusers.yml
+|4,39,2,12,1632753808,"~/myusers.yml"
+-'  2  12  ~/myusers.yml
+|4,39,2,12,1632753808,"~/myusers.yml"
+-'  2  12  ~/myusers.yml
+|4,39,2,12,1632753808,"~/myusers.yml"
+-'  2  12  ~/myusers.yml
+|4,39,2,12,1632753808,"~/myusers.yml"
+-'  2  12  ~/myusers.yml
+|4,39,2,12,1632753808,"~/myusers.yml"
+-'  2  12  ~/myusers.yml
+|4,39,2,12,1632753808,"~/myusers.yml"
+-'  2  12  ~/myusers.yml
+|4,39,2,12,1632753808,"~/myusers.yml"
+-'  2  12  ~/myusers.yml
+|4,39,2,12,1632753808,"~/myusers.yml"
+-'  2  12  ~/myusers.yml
+|4,39,2,12,1632753808,"~/myusers.yml"
+-'  2  12  ~/myusers.yml
+|4,39,2,12,1632753808,"~/myusers.yml"
+-'  2  12  ~/myusers.yml
+|4,39,2,12,1632753808,"~/myusers.yml"
+-'  2  12  ~/myusers.yml
+|4,39,2,12,1632753808,"~/myusers.yml"
+-'  2  12  ~/myusers.yml
+|4,39,2,12,1632753808,"~/myusers.yml"
+-'  2  12  ~/myusers.yml
+|4,39,2,12,1632753808,"~/myusers.yml"
+-'  2  12  ~/myusers.yml
+|4,39,2,12,1632753808,"~/myusers.yml"
+-'  2  12  ~/myusers.yml
+|4,39,2,12,1632753808,"~/myusers.yml"
+-'  2  12  ~/myusers.yml
+|4,39,2,12,1632753808,"~/myusers.yml"
+-'  2  12  ~/myusers.yml
+|4,39,2,12,1632753808,"~/myusers.yml"
+-'  2  12  ~/myusers.yml
+|4,39,2,12,1632753808,"~/myusers.yml"
+-'  2  12  ~/myusers.yml
+|4,39,2,12,1632753808,"~/myusers.yml"
 
 # History of marks within files (newest to oldest):
+
+> ~/setuptomcat.yml
+	*	1632763595	0
+	"	40	0
+	^	36	15
+	.	36	14
+	+	7	33
+	+	13	33
+	+	39	351
+	+	7	24
+	+	9	15
+	+	15	22
+	+	13	24
+	+	12	32
+	+	17	69
+	+	12	4
+	+	18	32
+	+	39	61
+	+	18	0
+	+	19	27
+	+	20	10
+	+	21	8
+	+	22	9
+	+	21	90
+	+	39	22
+	+	27	16
+	+	23	0
+	+	24	35
+	+	25	12
+	+	26	14
+	+	28	22
+	+	34	0
+	+	30	28
+	+	31	44
+	+	39	22
+	+	34	0
+	+	35	22
+	+	30	36
+	+	35	22
+	+	36	10
+	+	38	6
+	+	37	10
+	+	38	48
+	+	36	29
+	+	40	0
+	+	39	22
+	+	40	0
+	+	38	40
+	+	31	36
+	+	39	1
+	+	32	43
+	+	31	4
+	+	33	13
+	+	39	0
+	+	36	4
+	+	37	4
+	+	38	6
+	+	36	14
+
+> ~/myusers.yml
+	*	1632753806	0
+	"	2	12
+	^	2	13
+	.	2	12
+	+	1	14
+	+	2	13
+	+	1	15
+	+	2	12
+
+> ~/variablefileusers.yml
+	*	1632753754	0
+	"	9	38
+	^	9	39
+	.	9	38
+	+	9	38
+
+> ~/variablesusers1.yml
+	*	1632753531	0
+	"	15	24
+	^	15	25
+	.	15	16
+	+	5	35
+	+	5	48
+	+	9	44
+	+	11	22
+	+	9	42
+	+	15	26
+	+	13	41
+	+	15	16
+	+	5	27
+	+	5	43
+	+	9	38
+	+	5	11
+	+	5	18
+	+	6	14
+	+	9	44
+	+	11	21
+	+	13	45
+	+	15	16
+
+> ~/variablesusers.yml
+	*	1632751725	0
+	"	9	45
+	^	9	46
+	.	9	45
+	+	9	10
+	+	8	0
+	+	7	0
+	+	11	11
+	+	6	9
+	+	11	12
+	+	10	2
+	+	9	2
+	+	10	3
+	+	9	45
 
 > ~/conditions.yml
 	*	1632750113	0
@@ -462,65 +580,3 @@
 	+	7	21
 	+	6	32
 	+	8	0
-
-> ~/installingpackages.yml
-	*	1632649023	0
-	"	7	18
-	^	7	19
-	.	7	18
-	+	5	6
-	+	6	15
-	+	7	19
-	+	2	18
-	+	7	18
-
-> ~/multipleusercreationusingscript.yml
-	*	1632648173	0
-	"	10	16
-	^	10	17
-	.	10	11
-	+	6	15
-	+	8	15
-	+	10	15
-	+	6	11
-	+	8	11
-	+	10	11
-
-> ~/userinscriptmethod.yml
-	*	1632647757	0
-	"	6	16
-	^	6	17
-	.	6	11
-	+	7	0
-	+	6	11
-
-> ~/multipleusercreation.yml
-	*	1632647498	0
-	"	10	5
-	^	10	6
-	.	10	6
-	+	9	19
-	+	7	4
-	+	9	4
-	+	5	9
-	+	8	0
-	+	10	0
-	+	5	9
-	+	6	0
-	+	8	19
-	+	10	19
-	+	8	14
-	+	10	14
-	+	6	6
-	+	8	5
-	+	10	6
-
-> /etc/ansible/hosts
-	*	1632644866	0
-	"	24	0
-	^	24	1
-	.	24	0
-	+	21	0
-	+	20	0
-	+	23	0
-	+	24	0

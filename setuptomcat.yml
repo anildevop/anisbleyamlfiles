@@ -1,0 +1,40 @@
+---
+- name: with  installtion copying inedx.html file and start apache http server
+  hosts: all
+  become: true
+
+  tasks:
+  - name: Installing java redhat
+    yum:
+      name: java
+      state: present
+    when: ansible_os_family == "RedHat"
+    
+  - name: Installing java debian
+    apt:
+      name: default-jdk
+      state: present
+    when: ansible_os_family == "Debian"
+
+  - name: downloading tomcat
+    get_url:
+      url: https://dlcdn.apache.org/tomcat/tomcat-8/v8.5.71/bin/apache-tomcat-8.5.71.tar.gz
+      dest: /opt
+
+  - name: extracting tomcat zip file
+    unarchive:
+      src: /opt/apache-tomcat-8.5.71.tar.gz
+      dest: /opt
+      remote_src: true
+
+  - name: execute permissions tomcat
+    file:
+        path: /opt/apache-tomcat-8.5.71/bin/
+        mode: 0777
+
+  - name: service start
+    shell: nohup ./startup.sh
+    args:
+      chdir: /opt/apache-tomcat-8.5.71/bin
+ 
+
