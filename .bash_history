@@ -384,3 +384,58 @@ vi uninstallingmultiplepackages.yml
 cat  uninstallingmultiplepackages.yml
 ansible-playbook uninstallingmultiplepackages.yml
 ansible all -a "which git"
+clear
+ls
+ansible-playbook installingmultiplepackages.yml
+ansible-playbook uninstallingmultiplepackages.yml
+clear
+ansible all -a "which gcc"
+ansible all -a "which httpd"
+ls
+cat multipleusercreationusingscript.yml
+cp multipleusercreationusingscript.yml
+cp multipleusercreationusingscript.yml testmultiuser.yml
+vi testmultiuser.yml
+cat testmultiuser.yml
+ansible-playbook testmultiuser.yml --check
+ansible-playbook testmultiuser.yml
+ansible all -a "tail -5 /etc/passwd"
+cat testmultiuser.yml
+ansible-playbook testmultiuser.yml >test
+cat test
+clear
+ls
+pwd
+sudo yum install git  -y
+which git
+git init
+git show
+git --config-list
+git -config--list
+git --config-list
+git --config
+clear
+git status
+git add.
+git add .
+git status
+git commit -m ansiblescripts
+git config --global user.email "anil123@gmail.com
+"
+git config --global user.name "anilkumar"
+git commit -m ansiblescripts
+git remote add origin git@github.com:anildevop/anisbleyamlfiles.git
+git branch -M main
+git push -u origin main
+cat /etc/ssh/id_rsapub
+cat /etc/ssh/
+ls /etc/ssh/
+ls
+ls -a
+ls .ssh
+cat .ssh/id_rsa.pub
+git push -u origin main
+clear
+ls
+cp handlers.yml conditions.yml
+cat conditions.yml

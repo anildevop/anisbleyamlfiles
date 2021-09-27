@@ -12,7 +12,7 @@
 ~H
 # Command Line History (newest to oldest):
 :wq!
-|2,0,1632739558,,"wq!"
+|2,0,1632750117,,"wq!"
 :q!
 |2,0,1632668764,,"q!"
 :wq
@@ -29,36 +29,52 @@
 # Registers:
 
 # File marks:
-'0  7  17  ~/testmultiuser.yml
-|4,48,7,17,1632739558,"~/testmultiuser.yml"
-'1  7  14  ~/uninstallingmultiplepackages.yml
-|4,49,7,14,1632729207,"~/uninstallingmultiplepackages.yml"
-'2  7  19  ~/installingmultiplepackages.yml
-|4,50,7,19,1632728975,"~/installingmultiplepackages.yml"
-'3  13  0  ~/multihandlers.yml
-|4,51,13,0,1632670609,"~/multihandlers.yml"
-'4  12  38  ~/multihandlers.yml
-|4,52,12,38,1632670484,"~/multihandlers.yml"
-'5  14  1  ~/multihandlers.yml
-|4,53,14,1,1632670484,"~/multihandlers.yml"
-'6  12  35  ~/multihandlers.yml
-|4,54,12,35,1632670322,"~/multihandlers.yml"
+'0  39  38  ~/conditions.yml
+|4,48,39,38,1632750117,"~/conditions.yml"
+'1  7  17  ~/testmultiuser.yml
+|4,49,7,17,1632739558,"~/testmultiuser.yml"
+'2  7  14  ~/uninstallingmultiplepackages.yml
+|4,50,7,14,1632729207,"~/uninstallingmultiplepackages.yml"
+'3  7  19  ~/installingmultiplepackages.yml
+|4,51,7,19,1632728975,"~/installingmultiplepackages.yml"
+'4  13  0  ~/multihandlers.yml
+|4,52,13,0,1632670609,"~/multihandlers.yml"
+'5  12  38  ~/multihandlers.yml
+|4,53,12,38,1632670484,"~/multihandlers.yml"
+'6  14  1  ~/multihandlers.yml
+|4,54,14,1,1632670484,"~/multihandlers.yml"
 '7  12  35  ~/multihandlers.yml
 |4,55,12,35,1632670322,"~/multihandlers.yml"
-'8  13  0  ~/multihandlers.yml
-|4,56,13,0,1632670322,"~/multihandlers.yml"
+'8  12  35  ~/multihandlers.yml
+|4,56,12,35,1632670322,"~/multihandlers.yml"
 '9  13  0  ~/multihandlers.yml
 |4,57,13,0,1632670322,"~/multihandlers.yml"
 
 # Jumplist (newest first):
+-'  39  38  ~/conditions.yml
+|4,39,39,38,1632750117,"~/conditions.yml"
+-'  1  0  ~/conditions.yml
+|4,39,1,0,1632749427,"~/conditions.yml"
 -'  7  17  ~/testmultiuser.yml
 |4,39,7,17,1632739558,"~/testmultiuser.yml"
+-'  7  17  ~/testmultiuser.yml
+|4,39,7,17,1632739558,"~/testmultiuser.yml"
+-'  1  0  ~/testmultiuser.yml
+|4,39,1,0,1632739519,"~/testmultiuser.yml"
 -'  1  0  ~/testmultiuser.yml
 |4,39,1,0,1632739519,"~/testmultiuser.yml"
 -'  7  14  ~/uninstallingmultiplepackages.yml
 |4,39,7,14,1632729207,"~/uninstallingmultiplepackages.yml"
 -'  7  14  ~/uninstallingmultiplepackages.yml
 |4,39,7,14,1632729207,"~/uninstallingmultiplepackages.yml"
+-'  7  14  ~/uninstallingmultiplepackages.yml
+|4,39,7,14,1632729207,"~/uninstallingmultiplepackages.yml"
+-'  7  14  ~/uninstallingmultiplepackages.yml
+|4,39,7,14,1632729207,"~/uninstallingmultiplepackages.yml"
+-'  1  0  ~/uninstallingmultiplepackages.yml
+|4,39,1,0,1632729173,"~/uninstallingmultiplepackages.yml"
+-'  1  0  ~/uninstallingmultiplepackages.yml
+|4,39,1,0,1632729173,"~/uninstallingmultiplepackages.yml"
 -'  1  0  ~/uninstallingmultiplepackages.yml
 |4,39,1,0,1632729173,"~/uninstallingmultiplepackages.yml"
 -'  1  0  ~/uninstallingmultiplepackages.yml
@@ -71,6 +87,22 @@
 |4,39,7,19,1632728975,"~/installingmultiplepackages.yml"
 -'  7  19  ~/installingmultiplepackages.yml
 |4,39,7,19,1632728975,"~/installingmultiplepackages.yml"
+-'  7  19  ~/installingmultiplepackages.yml
+|4,39,7,19,1632728975,"~/installingmultiplepackages.yml"
+-'  7  19  ~/installingmultiplepackages.yml
+|4,39,7,19,1632728975,"~/installingmultiplepackages.yml"
+-'  7  19  ~/installingmultiplepackages.yml
+|4,39,7,19,1632728975,"~/installingmultiplepackages.yml"
+-'  7  19  ~/installingmultiplepackages.yml
+|4,39,7,19,1632728975,"~/installingmultiplepackages.yml"
+-'  1  0  ~/installingmultiplepackages.yml
+|4,39,1,0,1632728912,"~/installingmultiplepackages.yml"
+-'  1  0  ~/installingmultiplepackages.yml
+|4,39,1,0,1632728912,"~/installingmultiplepackages.yml"
+-'  1  0  ~/installingmultiplepackages.yml
+|4,39,1,0,1632728912,"~/installingmultiplepackages.yml"
+-'  1  0  ~/installingmultiplepackages.yml
+|4,39,1,0,1632728912,"~/installingmultiplepackages.yml"
 -'  1  0  ~/installingmultiplepackages.yml
 |4,39,1,0,1632728912,"~/installingmultiplepackages.yml"
 -'  1  0  ~/installingmultiplepackages.yml
@@ -95,6 +127,22 @@
 |4,39,13,0,1632670609,"~/multihandlers.yml"
 -'  13  0  ~/multihandlers.yml
 |4,39,13,0,1632670609,"~/multihandlers.yml"
+-'  13  0  ~/multihandlers.yml
+|4,39,13,0,1632670609,"~/multihandlers.yml"
+-'  13  0  ~/multihandlers.yml
+|4,39,13,0,1632670609,"~/multihandlers.yml"
+-'  13  0  ~/multihandlers.yml
+|4,39,13,0,1632670609,"~/multihandlers.yml"
+-'  13  0  ~/multihandlers.yml
+|4,39,13,0,1632670609,"~/multihandlers.yml"
+-'  13  0  ~/multihandlers.yml
+|4,39,13,0,1632670609,"~/multihandlers.yml"
+-'  13  0  ~/multihandlers.yml
+|4,39,13,0,1632670609,"~/multihandlers.yml"
+-'  13  0  ~/multihandlers.yml
+|4,39,13,0,1632670609,"~/multihandlers.yml"
+-'  13  0  ~/multihandlers.yml
+|4,39,13,0,1632670609,"~/multihandlers.yml"
 -'  12  38  ~/multihandlers.yml
 |4,39,12,38,1632670529,"~/multihandlers.yml"
 -'  12  38  ~/multihandlers.yml
@@ -111,6 +159,38 @@
 |4,39,12,38,1632670529,"~/multihandlers.yml"
 -'  12  38  ~/multihandlers.yml
 |4,39,12,38,1632670529,"~/multihandlers.yml"
+-'  12  38  ~/multihandlers.yml
+|4,39,12,38,1632670529,"~/multihandlers.yml"
+-'  12  38  ~/multihandlers.yml
+|4,39,12,38,1632670529,"~/multihandlers.yml"
+-'  12  38  ~/multihandlers.yml
+|4,39,12,38,1632670529,"~/multihandlers.yml"
+-'  12  38  ~/multihandlers.yml
+|4,39,12,38,1632670529,"~/multihandlers.yml"
+-'  12  38  ~/multihandlers.yml
+|4,39,12,38,1632670529,"~/multihandlers.yml"
+-'  12  38  ~/multihandlers.yml
+|4,39,12,38,1632670529,"~/multihandlers.yml"
+-'  12  38  ~/multihandlers.yml
+|4,39,12,38,1632670529,"~/multihandlers.yml"
+-'  12  38  ~/multihandlers.yml
+|4,39,12,38,1632670529,"~/multihandlers.yml"
+-'  14  1  ~/multihandlers.yml
+|4,39,14,1,1632670484,"~/multihandlers.yml"
+-'  14  1  ~/multihandlers.yml
+|4,39,14,1,1632670484,"~/multihandlers.yml"
+-'  14  1  ~/multihandlers.yml
+|4,39,14,1,1632670484,"~/multihandlers.yml"
+-'  14  1  ~/multihandlers.yml
+|4,39,14,1,1632670484,"~/multihandlers.yml"
+-'  14  1  ~/multihandlers.yml
+|4,39,14,1,1632670484,"~/multihandlers.yml"
+-'  14  1  ~/multihandlers.yml
+|4,39,14,1,1632670484,"~/multihandlers.yml"
+-'  14  1  ~/multihandlers.yml
+|4,39,14,1,1632670484,"~/multihandlers.yml"
+-'  14  1  ~/multihandlers.yml
+|4,39,14,1,1632670484,"~/multihandlers.yml"
 -'  14  1  ~/multihandlers.yml
 |4,39,14,1,1632670484,"~/multihandlers.yml"
 -'  14  1  ~/multihandlers.yml
@@ -144,7 +224,21 @@
 -'  13  0  ~/multihandlers.yml
 |4,39,13,0,1632670455,"~/multihandlers.yml"
 -'  13  0  ~/multihandlers.yml
-|4,39,13,0,1632670322,"~/multihandlers.yml"
+|4,39,13,0,1632670455,"~/multihandlers.yml"
+-'  13  0  ~/multihandlers.yml
+|4,39,13,0,1632670455,"~/multihandlers.yml"
+-'  13  0  ~/multihandlers.yml
+|4,39,13,0,1632670455,"~/multihandlers.yml"
+-'  13  0  ~/multihandlers.yml
+|4,39,13,0,1632670455,"~/multihandlers.yml"
+-'  13  0  ~/multihandlers.yml
+|4,39,13,0,1632670455,"~/multihandlers.yml"
+-'  13  0  ~/multihandlers.yml
+|4,39,13,0,1632670455,"~/multihandlers.yml"
+-'  13  0  ~/multihandlers.yml
+|4,39,13,0,1632670455,"~/multihandlers.yml"
+-'  13  0  ~/multihandlers.yml
+|4,39,13,0,1632670455,"~/multihandlers.yml"
 -'  13  0  ~/multihandlers.yml
 |4,39,13,0,1632670322,"~/multihandlers.yml"
 -'  13  0  ~/multihandlers.yml
@@ -157,102 +251,36 @@
 |4,39,13,0,1632670322,"~/multihandlers.yml"
 -'  13  0  ~/multihandlers.yml
 |4,39,13,0,1632670322,"~/multihandlers.yml"
--'  13  0  ~/multihandlers.yml
-|4,39,13,0,1632670322,"~/multihandlers.yml"
--'  14  0  ~/multihandlers.yml
-|4,39,14,0,1632670148,"~/multihandlers.yml"
--'  15  0  ~/multihandlers.yml
-|4,39,15,0,1632670148,"~/multihandlers.yml"
--'  14  0  ~/multihandlers.yml
-|4,39,14,0,1632670148,"~/multihandlers.yml"
--'  14  0  ~/multihandlers.yml
-|4,39,14,0,1632670148,"~/multihandlers.yml"
--'  15  0  ~/multihandlers.yml
-|4,39,15,0,1632670148,"~/multihandlers.yml"
--'  14  0  ~/multihandlers.yml
-|4,39,14,0,1632670148,"~/multihandlers.yml"
--'  14  0  ~/multihandlers.yml
-|4,39,14,0,1632670148,"~/multihandlers.yml"
--'  15  0  ~/multihandlers.yml
-|4,39,15,0,1632670148,"~/multihandlers.yml"
--'  14  0  ~/multihandlers.yml
-|4,39,14,0,1632670148,"~/multihandlers.yml"
--'  14  0  ~/multihandlers.yml
-|4,39,14,0,1632670148,"~/multihandlers.yml"
--'  15  0  ~/multihandlers.yml
-|4,39,15,0,1632670148,"~/multihandlers.yml"
--'  14  0  ~/multihandlers.yml
-|4,39,14,0,1632670148,"~/multihandlers.yml"
--'  14  0  ~/multihandlers.yml
-|4,39,14,0,1632670148,"~/multihandlers.yml"
--'  15  0  ~/multihandlers.yml
-|4,39,15,0,1632670148,"~/multihandlers.yml"
--'  14  0  ~/multihandlers.yml
-|4,39,14,0,1632670148,"~/multihandlers.yml"
--'  14  0  ~/multihandlers.yml
-|4,39,14,0,1632670148,"~/multihandlers.yml"
--'  15  0  ~/multihandlers.yml
-|4,39,15,0,1632670148,"~/multihandlers.yml"
--'  14  0  ~/multihandlers.yml
-|4,39,14,0,1632670148,"~/multihandlers.yml"
--'  14  0  ~/multihandlers.yml
-|4,39,14,0,1632670148,"~/multihandlers.yml"
--'  15  0  ~/multihandlers.yml
-|4,39,15,0,1632670148,"~/multihandlers.yml"
--'  14  0  ~/multihandlers.yml
-|4,39,14,0,1632670148,"~/multihandlers.yml"
--'  14  0  ~/multihandlers.yml
-|4,39,14,0,1632670148,"~/multihandlers.yml"
--'  15  0  ~/multihandlers.yml
-|4,39,15,0,1632670148,"~/multihandlers.yml"
--'  14  0  ~/multihandlers.yml
-|4,39,14,0,1632670148,"~/multihandlers.yml"
--'  1  0  ~/multihandlers.yml
-|4,39,1,0,1632670069,"~/multihandlers.yml"
--'  1  0  ~/multihandlers.yml
-|4,39,1,0,1632670069,"~/multihandlers.yml"
--'  1  0  ~/multihandlers.yml
-|4,39,1,0,1632670069,"~/multihandlers.yml"
--'  1  0  ~/multihandlers.yml
-|4,39,1,0,1632670069,"~/multihandlers.yml"
--'  1  0  ~/multihandlers.yml
-|4,39,1,0,1632670069,"~/multihandlers.yml"
--'  1  0  ~/multihandlers.yml
-|4,39,1,0,1632670069,"~/multihandlers.yml"
--'  1  0  ~/multihandlers.yml
-|4,39,1,0,1632670069,"~/multihandlers.yml"
--'  1  0  ~/multihandlers.yml
-|4,39,1,0,1632670069,"~/multihandlers.yml"
--'  1  0  ~/multihandlers.yml
-|4,39,1,0,1632670069,"~/multihandlers.yml"
--'  1  0  ~/multihandlers.yml
-|4,39,1,0,1632670069,"~/multihandlers.yml"
--'  1  0  ~/multihandlers.yml
-|4,39,1,0,1632670069,"~/multihandlers.yml"
--'  1  0  ~/multihandlers.yml
-|4,39,1,0,1632670069,"~/multihandlers.yml"
--'  1  0  ~/multihandlers.yml
-|4,39,1,0,1632670069,"~/multihandlers.yml"
--'  1  0  ~/multihandlers.yml
-|4,39,1,0,1632670069,"~/multihandlers.yml"
--'  1  0  ~/multihandlers.yml
-|4,39,1,0,1632670069,"~/multihandlers.yml"
--'  1  0  ~/multihandlers.yml
-|4,39,1,0,1632670069,"~/multihandlers.yml"
--'  1  0  ~/multihandlers.yml
-|4,39,1,0,1632670069,"~/multihandlers.yml"
--'  1  0  ~/multihandlers.yml
-|4,39,1,0,1632670069,"~/multihandlers.yml"
--'  1  0  ~/multihandlers.yml
-|4,39,1,0,1632670069,"~/multihandlers.yml"
--'  1  0  ~/multihandlers.yml
-|4,39,1,0,1632670069,"~/multihandlers.yml"
--'  1  0  ~/multihandlers.yml
-|4,39,1,0,1632670069,"~/multihandlers.yml"
--'  1  0  ~/multihandlers.yml
-|4,39,1,0,1632670069,"~/multihandlers.yml"
 
 # History of marks within files (newest to oldest):
+
+> ~/conditions.yml
+	*	1632750113	0
+	"	39	38
+	^	39	39
+	.	40	0
+	+	12	4
+	+	11	38
+	+	19	41
+	+	14	34
+	+	7	38
+	+	15	6
+	+	16	14
+	+	18	37
+	+	19	36
+	+	5	1
+	+	24	26
+	+	21	0
+	+	5	0
+	+	6	0
+	+	38	18
+	+	33	0
+	+	16	17
+	+	34	34
+	+	36	18
+	+	33	0
+	+	32	37
+	+	40	0
 
 > ~/testmultiuser.yml
 	*	1632739554	0
@@ -496,12 +524,3 @@
 	+	20	0
 	+	23	0
 	+	24	0
-
-> ~/specificgroupuser.yml
-	*	1632644525	0
-	"	2	11
-	^	2	12
-	.	2	11
-	+	2	18
-	+	5	21
-	+	2	11

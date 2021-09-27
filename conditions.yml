@@ -1,0 +1,39 @@
+---
+- name: with  installtion copying inedx.html file and start apache http server
+  hosts: all
+  become: true
+
+  tasks:
+  - name: Installing apache http redhat
+    yum:
+      name: httpd
+      state: present
+    when: ansible_os_family == "RedHat"
+    notify: starting service  apache http
+ 
+  - name: Installing apache2 debian
+    apt:
+      name: apache2
+      state: present
+    when: ansible_os_family == "Debian"
+    notify: starting service  apache2
+
+  - name: copying index.html file
+    copy:
+      src: /home/ansadmin/index.html
+      dest: /var/www/html/
+
+  handlers:
+  - name: starting service  apache http
+    service:
+      name: httpd
+      state: started
+      enabled: yes
+    when: ansible_os_family == "RedHat"
+
+  - name: starting service  apache2
+    service:
+      name: apache2
+      state: started
+      enabled: yes
+    when: ansible_os_family == "Debian"
