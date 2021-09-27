@@ -1,0 +1,10 @@
+---
+- hosts: all
+  become: true
+  tasks:
+  - name: Deleting file
+    file:  
+      path: /home/ansadmin/newfile 
+      state: absent
+
+

@@ -1,0 +1,14 @@
+---
+- name: Coying files to nodes
+  hosts: all
+  become: true
+  
+  tasks:
+  - name: Copying file from source to destination
+    copy:
+      src: /home/ansadmin/newuser.yml
+      dest: /home/ansadmin
+ 
+
+
+

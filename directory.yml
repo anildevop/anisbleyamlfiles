@@ -1,0 +1,10 @@
+---
+- hosts: all
+  become: true
+  tasks:
+  - file:  
+      path: /home/ansadmin/newdir
+      state: absent
+
+
+

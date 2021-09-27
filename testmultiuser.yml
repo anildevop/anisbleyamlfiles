@@ -1,0 +1,9 @@
+---
+- hosts: all
+  become: true
+  tasks:
+  - user:
+      name: anil10
+      name: anil11
+
+

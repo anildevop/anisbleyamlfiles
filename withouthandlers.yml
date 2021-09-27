@@ -1,0 +1,21 @@
+---
+- name: without  installtion copying inedx.html file and start apache http server
+  hosts: all
+  become: true
+  tasks:
+  - name: starting service  apache http
+    service:
+      name: httpd
+      state: started
+      enabled: yes
+
+  - name: Installing apache http 
+    yum:
+      name: httpd
+      state: present
+
+  - name: copying index.html file
+    copy: 
+      src: /home/ansadmin/index.html
+      dest: /var/www/html/
+

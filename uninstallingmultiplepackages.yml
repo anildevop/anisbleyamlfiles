@@ -1,0 +1,9 @@
+---
+- hosts: all
+  become: true
+  tasks:
+  - yum:
+      name: [tree,git,httpd,gcc]
+      state: absent
+
+
