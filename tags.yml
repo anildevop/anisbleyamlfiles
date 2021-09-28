@@ -1,0 +1,19 @@
+---
+- name: installtion and start apache http server
+  hosts: all
+  become: true
+  tasks:
+  - name: Installing apache http 
+    yum:
+      name: httpd
+      state: present
+    tags: only install no service
+
+  - name: starting service  apache http
+    service:
+      name: httpd
+      state: started
+      enabled: yes
+
+
+

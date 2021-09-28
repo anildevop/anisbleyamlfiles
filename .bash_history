@@ -496,3 +496,59 @@ cat variablefileusers.yml
 ansible-playbook variablefileusers.yml
 ansible all -a "tail -2  /etc/passwd"
 clear
+cp conditions.yml setuptomcat.yml
+vi setuptomcat.yml
+ansible-playbook setuptomcat.yml --check
+ansible-playbook setuptomcat.yml
+vi setuptomcat.yml
+ansible-playbook setuptomcat.yml
+vi setuptomcat.yml
+ansible-playbook setuptomcat.yml
+vi setuptomcat.yml
+ansible-playbook setuptomcat.yml
+vi setuptomcat.yml
+ansible-playbook setuptomcat.yml
+vi setuptomcat.yml
+ansible-playbook setuptomcat.yml
+vi setuptomcat.yml
+ansible-playbook setuptomcat.yml
+git status
+git add .
+git status
+git commit -m tomcatsetup
+git push origin main
+clear
+ls
+cp setuptomcat.yml tags.yml
+vi tags.yml
+cp installstartservice.yml  tags.yml
+vi tags.yml
+ansible-playbook tags.yml --tags only install no service
+ansible-playbook tags.yml --tags "only install no service"
+cp tags.yml ignore_errors.yml
+vi ignore_errors.yml
+ansible-playbook ignore_errors.yml
+clear
+ls
+ansible-playbook vault create encryptwhilecreatingfile.yml
+ansible-vault create encryptwhilecreatingfile.yml
+ls
+cat encryptwhilecreatingfile.yml
+ls
+ansible-vault encrypt tag.yml
+ansible-vault encrypt tags.yml
+cat tags.yml
+vi tags.yml
+ansible-vault view tags.yml
+ansible-vault edit tags.yml
+cat tags.yml
+ansible-vault decrypt tags.yml
+cat tags.yml
+vi tags.yml
+clear
+ls
+cp multipleusercreation.yml usingwith_itemsmultiusercreation.yml
+vi usingwith_itemsmultiusercreation.yml
+ansible all -a "tail -4 /etc/passwd"
+ansible-playbook usingwith_itemsmultiusercreation.yml
+ansible all -a "tail -4 /etc/passwd"

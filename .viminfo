@@ -10,15 +10,20 @@
 
 # hlsearch on (H) or off (h):
 ~H
+# Last Substitute String:
+$
+
 # Command Line History (newest to oldest):
 :wq!
-|2,0,1632763599,,"wq!"
+|2,0,1632821434,,"wq!"
 :q!
-|2,0,1632668764,,"q!"
+|2,0,1632820586,,"q!"
 :wq
 |2,0,1632648177,,"wq"
 
 # Search String History (newest to oldest):
+? @$
+|2,1,1632819339,,"@$"
 
 # Expression History (newest to oldest):
 
@@ -27,239 +32,296 @@
 # Debug Line History (newest to oldest):
 
 # Registers:
-""-	CHAR	0
+""0	CHAR	0
 	s
-|3,1,36,0,1,0,1632753347,"s"
+|3,1,0,0,1,0,1632819342,"s"
+"-	BLOCK	10
+	main.yml   
+|3,0,36,2,1,10,1632819322,"main.yml   "
 
 # File marks:
-'0  40  0  ~/setuptomcat.yml
-|4,48,40,0,1632763599,"~/setuptomcat.yml"
-'1  36  14  ~/setuptomcat.yml
-|4,49,36,14,1632763255,"~/setuptomcat.yml"
-'2  36  14  ~/setuptomcat.yml
-|4,50,36,14,1632763255,"~/setuptomcat.yml"
-'3  38  5  ~/setuptomcat.yml
-|4,51,38,5,1632763182,"~/setuptomcat.yml"
-'4  38  5  ~/setuptomcat.yml
-|4,52,38,5,1632763182,"~/setuptomcat.yml"
-'5  38  5  ~/setuptomcat.yml
-|4,53,38,5,1632763182,"~/setuptomcat.yml"
-'6  38  5  ~/setuptomcat.yml
-|4,54,38,5,1632763182,"~/setuptomcat.yml"
-'7  39  43  ~/setuptomcat.yml
-|4,55,39,43,1632763001,"~/setuptomcat.yml"
-'8  39  43  ~/setuptomcat.yml
-|4,56,39,43,1632763001,"~/setuptomcat.yml"
-'9  39  43  ~/setuptomcat.yml
-|4,57,39,43,1632763001,"~/setuptomcat.yml"
+'0  12  3  ~/apche-tomcat-role/handlers/main.yml
+|4,48,12,3,1632821434,"~/apche-tomcat-role/handlers/main.yml"
+'1  7  6  ~/apche-tomcat-role/tasks/main.yml
+|4,49,7,6,1632821299,"~/apche-tomcat-role/tasks/main.yml"
+'2  7  24  ~/apche-tomcat-role/tasks/main.yml
+|4,50,7,24,1632821141,"~/apche-tomcat-role/tasks/main.yml"
+'3  6  1  ~/apche-tomcat-role/handlers/main.yml
+|4,51,6,1,1632821081,"~/apche-tomcat-role/handlers/main.yml"
+'4  6  1  ~/apche-tomcat-role/handlers/main.yml
+|4,52,6,1,1632821081,"~/apche-tomcat-role/handlers/main.yml"
+'5  6  3  ~/apche-tomcat-role/tasks/main.yml
+|4,53,6,3,1632820849,"~/apche-tomcat-role/tasks/main.yml"
+'6  6  3  ~/apche-tomcat-role/tasks/main.yml
+|4,54,6,3,1632820849,"~/apche-tomcat-role/tasks/main.yml"
+'7  6  3  ~/apche-tomcat-role/tasks/main.yml
+|4,55,6,3,1632820849,"~/apche-tomcat-role/tasks/main.yml"
+'8  6  3  ~/apche-tomcat-role/tasks/main.yml
+|4,56,6,3,1632820849,"~/apche-tomcat-role/tasks/main.yml"
+'9  7  21  ~/myfirstmainroleplaybook.yml
+|4,57,7,21,1632820727,"~/myfirstmainroleplaybook.yml"
 
 # Jumplist (newest first):
--'  40  0  ~/setuptomcat.yml
-|4,39,40,0,1632763599,"~/setuptomcat.yml"
--'  36  14  ~/setuptomcat.yml
-|4,39,36,14,1632763319,"~/setuptomcat.yml"
--'  36  14  ~/setuptomcat.yml
-|4,39,36,14,1632763255,"~/setuptomcat.yml"
--'  38  5  ~/setuptomcat.yml
-|4,39,38,5,1632763232,"~/setuptomcat.yml"
--'  38  5  ~/setuptomcat.yml
-|4,39,38,5,1632763232,"~/setuptomcat.yml"
--'  38  5  ~/setuptomcat.yml
-|4,39,38,5,1632763182,"~/setuptomcat.yml"
--'  39  43  ~/setuptomcat.yml
-|4,39,39,43,1632763001,"~/setuptomcat.yml"
--'  39  43  ~/setuptomcat.yml
-|4,39,39,43,1632763001,"~/setuptomcat.yml"
--'  39  43  ~/setuptomcat.yml
-|4,39,39,43,1632763001,"~/setuptomcat.yml"
--'  31  35  ~/setuptomcat.yml
-|4,39,31,35,1632762652,"~/setuptomcat.yml"
--'  31  35  ~/setuptomcat.yml
-|4,39,31,35,1632762652,"~/setuptomcat.yml"
--'  31  35  ~/setuptomcat.yml
-|4,39,31,35,1632762652,"~/setuptomcat.yml"
--'  31  35  ~/setuptomcat.yml
-|4,39,31,35,1632762652,"~/setuptomcat.yml"
--'  32  35  ~/setuptomcat.yml
-|4,39,32,35,1632762589,"~/setuptomcat.yml"
--'  32  35  ~/setuptomcat.yml
-|4,39,32,35,1632762589,"~/setuptomcat.yml"
--'  32  35  ~/setuptomcat.yml
-|4,39,32,35,1632762589,"~/setuptomcat.yml"
--'  32  35  ~/setuptomcat.yml
-|4,39,32,35,1632762589,"~/setuptomcat.yml"
--'  40  39  ~/setuptomcat.yml
-|4,39,40,39,1632762550,"~/setuptomcat.yml"
--'  39  39  ~/setuptomcat.yml
-|4,39,39,39,1632762550,"~/setuptomcat.yml"
--'  40  39  ~/setuptomcat.yml
-|4,39,40,39,1632762550,"~/setuptomcat.yml"
--'  40  39  ~/setuptomcat.yml
-|4,39,40,39,1632762513,"~/setuptomcat.yml"
--'  1  2  ~/setuptomcat.yml
-|4,39,1,2,1632762475,"~/setuptomcat.yml"
--'  1  2  ~/setuptomcat.yml
-|4,39,1,2,1632762475,"~/setuptomcat.yml"
--'  1  2  ~/setuptomcat.yml
-|4,39,1,2,1632762475,"~/setuptomcat.yml"
--'  1  2  ~/setuptomcat.yml
-|4,39,1,2,1632762475,"~/setuptomcat.yml"
--'  1  2  ~/setuptomcat.yml
-|4,39,1,2,1632762475,"~/setuptomcat.yml"
--'  1  2  ~/setuptomcat.yml
-|4,39,1,2,1632762475,"~/setuptomcat.yml"
--'  1  2  ~/setuptomcat.yml
-|4,39,1,2,1632762332,"~/setuptomcat.yml"
--'  2  12  ~/myusers.yml
-|4,39,2,12,1632753808,"~/myusers.yml"
--'  2  12  ~/myusers.yml
-|4,39,2,12,1632753808,"~/myusers.yml"
--'  2  12  ~/myusers.yml
-|4,39,2,12,1632753808,"~/myusers.yml"
--'  2  12  ~/myusers.yml
-|4,39,2,12,1632753808,"~/myusers.yml"
--'  2  12  ~/myusers.yml
-|4,39,2,12,1632753808,"~/myusers.yml"
--'  2  12  ~/myusers.yml
-|4,39,2,12,1632753808,"~/myusers.yml"
--'  2  12  ~/myusers.yml
-|4,39,2,12,1632753808,"~/myusers.yml"
--'  2  12  ~/myusers.yml
-|4,39,2,12,1632753808,"~/myusers.yml"
--'  2  12  ~/myusers.yml
-|4,39,2,12,1632753808,"~/myusers.yml"
--'  2  12  ~/myusers.yml
-|4,39,2,12,1632753808,"~/myusers.yml"
--'  2  12  ~/myusers.yml
-|4,39,2,12,1632753808,"~/myusers.yml"
--'  2  12  ~/myusers.yml
-|4,39,2,12,1632753808,"~/myusers.yml"
--'  2  12  ~/myusers.yml
-|4,39,2,12,1632753808,"~/myusers.yml"
--'  2  12  ~/myusers.yml
-|4,39,2,12,1632753808,"~/myusers.yml"
--'  2  12  ~/myusers.yml
-|4,39,2,12,1632753808,"~/myusers.yml"
--'  2  12  ~/myusers.yml
-|4,39,2,12,1632753808,"~/myusers.yml"
--'  2  12  ~/myusers.yml
-|4,39,2,12,1632753808,"~/myusers.yml"
--'  2  12  ~/myusers.yml
-|4,39,2,12,1632753808,"~/myusers.yml"
--'  2  12  ~/myusers.yml
-|4,39,2,12,1632753808,"~/myusers.yml"
--'  2  12  ~/myusers.yml
-|4,39,2,12,1632753808,"~/myusers.yml"
--'  2  12  ~/myusers.yml
-|4,39,2,12,1632753808,"~/myusers.yml"
--'  2  12  ~/myusers.yml
-|4,39,2,12,1632753808,"~/myusers.yml"
--'  2  12  ~/myusers.yml
-|4,39,2,12,1632753808,"~/myusers.yml"
--'  2  12  ~/myusers.yml
-|4,39,2,12,1632753808,"~/myusers.yml"
--'  2  12  ~/myusers.yml
-|4,39,2,12,1632753808,"~/myusers.yml"
--'  2  12  ~/myusers.yml
-|4,39,2,12,1632753808,"~/myusers.yml"
--'  2  12  ~/myusers.yml
-|4,39,2,12,1632753808,"~/myusers.yml"
--'  2  12  ~/myusers.yml
-|4,39,2,12,1632753808,"~/myusers.yml"
--'  2  12  ~/myusers.yml
-|4,39,2,12,1632753808,"~/myusers.yml"
--'  2  12  ~/myusers.yml
-|4,39,2,12,1632753808,"~/myusers.yml"
--'  2  12  ~/myusers.yml
-|4,39,2,12,1632753808,"~/myusers.yml"
--'  2  12  ~/myusers.yml
-|4,39,2,12,1632753808,"~/myusers.yml"
--'  2  12  ~/myusers.yml
-|4,39,2,12,1632753808,"~/myusers.yml"
--'  2  12  ~/myusers.yml
-|4,39,2,12,1632753808,"~/myusers.yml"
--'  2  12  ~/myusers.yml
-|4,39,2,12,1632753808,"~/myusers.yml"
--'  2  12  ~/myusers.yml
-|4,39,2,12,1632753808,"~/myusers.yml"
--'  2  12  ~/myusers.yml
-|4,39,2,12,1632753808,"~/myusers.yml"
--'  2  12  ~/myusers.yml
-|4,39,2,12,1632753808,"~/myusers.yml"
--'  2  12  ~/myusers.yml
-|4,39,2,12,1632753808,"~/myusers.yml"
--'  2  12  ~/myusers.yml
-|4,39,2,12,1632753808,"~/myusers.yml"
--'  2  12  ~/myusers.yml
-|4,39,2,12,1632753808,"~/myusers.yml"
--'  2  12  ~/myusers.yml
-|4,39,2,12,1632753808,"~/myusers.yml"
--'  2  12  ~/myusers.yml
-|4,39,2,12,1632753808,"~/myusers.yml"
--'  2  12  ~/myusers.yml
-|4,39,2,12,1632753808,"~/myusers.yml"
--'  2  12  ~/myusers.yml
-|4,39,2,12,1632753808,"~/myusers.yml"
--'  2  12  ~/myusers.yml
-|4,39,2,12,1632753808,"~/myusers.yml"
--'  2  12  ~/myusers.yml
-|4,39,2,12,1632753808,"~/myusers.yml"
--'  2  12  ~/myusers.yml
-|4,39,2,12,1632753808,"~/myusers.yml"
--'  2  12  ~/myusers.yml
-|4,39,2,12,1632753808,"~/myusers.yml"
--'  2  12  ~/myusers.yml
-|4,39,2,12,1632753808,"~/myusers.yml"
--'  2  12  ~/myusers.yml
-|4,39,2,12,1632753808,"~/myusers.yml"
--'  2  12  ~/myusers.yml
-|4,39,2,12,1632753808,"~/myusers.yml"
--'  2  12  ~/myusers.yml
-|4,39,2,12,1632753808,"~/myusers.yml"
--'  2  12  ~/myusers.yml
-|4,39,2,12,1632753808,"~/myusers.yml"
--'  2  12  ~/myusers.yml
-|4,39,2,12,1632753808,"~/myusers.yml"
--'  2  12  ~/myusers.yml
-|4,39,2,12,1632753808,"~/myusers.yml"
--'  2  12  ~/myusers.yml
-|4,39,2,12,1632753808,"~/myusers.yml"
--'  2  12  ~/myusers.yml
-|4,39,2,12,1632753808,"~/myusers.yml"
--'  2  12  ~/myusers.yml
-|4,39,2,12,1632753808,"~/myusers.yml"
--'  2  12  ~/myusers.yml
-|4,39,2,12,1632753808,"~/myusers.yml"
--'  2  12  ~/myusers.yml
-|4,39,2,12,1632753808,"~/myusers.yml"
--'  2  12  ~/myusers.yml
-|4,39,2,12,1632753808,"~/myusers.yml"
--'  2  12  ~/myusers.yml
-|4,39,2,12,1632753808,"~/myusers.yml"
--'  2  12  ~/myusers.yml
-|4,39,2,12,1632753808,"~/myusers.yml"
--'  2  12  ~/myusers.yml
-|4,39,2,12,1632753808,"~/myusers.yml"
--'  2  12  ~/myusers.yml
-|4,39,2,12,1632753808,"~/myusers.yml"
--'  2  12  ~/myusers.yml
-|4,39,2,12,1632753808,"~/myusers.yml"
--'  2  12  ~/myusers.yml
-|4,39,2,12,1632753808,"~/myusers.yml"
--'  2  12  ~/myusers.yml
-|4,39,2,12,1632753808,"~/myusers.yml"
--'  2  12  ~/myusers.yml
-|4,39,2,12,1632753808,"~/myusers.yml"
--'  2  12  ~/myusers.yml
-|4,39,2,12,1632753808,"~/myusers.yml"
--'  2  12  ~/myusers.yml
-|4,39,2,12,1632753808,"~/myusers.yml"
+-'  12  3  ~/apche-tomcat-role/handlers/main.yml
+|4,39,12,3,1632821434,"~/apche-tomcat-role/handlers/main.yml"
+-'  6  1  ~/apche-tomcat-role/handlers/main.yml
+|4,39,6,1,1632821381,"~/apche-tomcat-role/handlers/main.yml"
+-'  7  6  ~/apche-tomcat-role/tasks/main.yml
+|4,39,7,6,1632821299,"~/apche-tomcat-role/tasks/main.yml"
+-'  7  6  ~/apche-tomcat-role/tasks/main.yml
+|4,39,7,6,1632821299,"~/apche-tomcat-role/tasks/main.yml"
+-'  7  24  ~/apche-tomcat-role/tasks/main.yml
+|4,39,7,24,1632821141,"~/apche-tomcat-role/tasks/main.yml"
+-'  7  24  ~/apche-tomcat-role/tasks/main.yml
+|4,39,7,24,1632821141,"~/apche-tomcat-role/tasks/main.yml"
+-'  6  3  ~/apche-tomcat-role/tasks/main.yml
+|4,39,6,3,1632821108,"~/apche-tomcat-role/tasks/main.yml"
+-'  6  3  ~/apche-tomcat-role/tasks/main.yml
+|4,39,6,3,1632821108,"~/apche-tomcat-role/tasks/main.yml"
+-'  6  3  ~/apche-tomcat-role/tasks/main.yml
+|4,39,6,3,1632821108,"~/apche-tomcat-role/tasks/main.yml"
+-'  6  3  ~/apche-tomcat-role/tasks/main.yml
+|4,39,6,3,1632821108,"~/apche-tomcat-role/tasks/main.yml"
+-'  6  1  ~/apche-tomcat-role/handlers/main.yml
+|4,39,6,1,1632821081,"~/apche-tomcat-role/handlers/main.yml"
+-'  6  1  ~/apche-tomcat-role/handlers/main.yml
+|4,39,6,1,1632821081,"~/apche-tomcat-role/handlers/main.yml"
+-'  6  1  ~/apche-tomcat-role/handlers/main.yml
+|4,39,6,1,1632821081,"~/apche-tomcat-role/handlers/main.yml"
+-'  6  1  ~/apche-tomcat-role/handlers/main.yml
+|4,39,6,1,1632821081,"~/apche-tomcat-role/handlers/main.yml"
+-'  5  59  ~/apche-tomcat-role/handlers/main.yml
+|4,39,5,59,1632821018,"~/apche-tomcat-role/handlers/main.yml"
+-'  5  59  ~/apche-tomcat-role/handlers/main.yml
+|4,39,5,59,1632821018,"~/apche-tomcat-role/handlers/main.yml"
+-'  5  59  ~/apche-tomcat-role/handlers/main.yml
+|4,39,5,59,1632821018,"~/apche-tomcat-role/handlers/main.yml"
+-'  5  59  ~/apche-tomcat-role/handlers/main.yml
+|4,39,5,59,1632821018,"~/apche-tomcat-role/handlers/main.yml"
+-'  5  59  ~/apche-tomcat-role/handlers/main.yml
+|4,39,5,59,1632821018,"~/apche-tomcat-role/handlers/main.yml"
+-'  6  3  ~/apche-tomcat-role/tasks/main.yml
+|4,39,6,3,1632820849,"~/apche-tomcat-role/tasks/main.yml"
+-'  6  3  ~/apche-tomcat-role/tasks/main.yml
+|4,39,6,3,1632820849,"~/apche-tomcat-role/tasks/main.yml"
+-'  6  3  ~/apche-tomcat-role/tasks/main.yml
+|4,39,6,3,1632820849,"~/apche-tomcat-role/tasks/main.yml"
+-'  6  3  ~/apche-tomcat-role/tasks/main.yml
+|4,39,6,3,1632820849,"~/apche-tomcat-role/tasks/main.yml"
+-'  7  2  ~/apche-tomcat-role/tasks/main.yml
+|4,39,7,2,1632820817,"~/apche-tomcat-role/tasks/main.yml"
+-'  7  2  ~/apche-tomcat-role/tasks/main.yml
+|4,39,7,2,1632820817,"~/apche-tomcat-role/tasks/main.yml"
+-'  7  2  ~/apche-tomcat-role/tasks/main.yml
+|4,39,7,2,1632820817,"~/apche-tomcat-role/tasks/main.yml"
+-'  7  2  ~/apche-tomcat-role/tasks/main.yml
+|4,39,7,2,1632820817,"~/apche-tomcat-role/tasks/main.yml"
+-'  7  21  ~/myfirstmainroleplaybook.yml
+|4,39,7,21,1632820727,"~/myfirstmainroleplaybook.yml"
+-'  7  21  ~/myfirstmainroleplaybook.yml
+|4,39,7,21,1632820727,"~/myfirstmainroleplaybook.yml"
+-'  7  21  ~/myfirstmainroleplaybook.yml
+|4,39,7,21,1632820727,"~/myfirstmainroleplaybook.yml"
+-'  7  21  ~/myfirstmainroleplaybook.yml
+|4,39,7,21,1632820727,"~/myfirstmainroleplaybook.yml"
+-'  7  21  ~/myfirstmainroleplaybook.yml
+|4,39,7,21,1632820727,"~/myfirstmainroleplaybook.yml"
+-'  7  21  ~/myfirstmainroleplaybook.yml
+|4,39,7,21,1632820727,"~/myfirstmainroleplaybook.yml"
+-'  7  21  ~/myfirstmainroleplaybook.yml
+|4,39,7,21,1632820727,"~/myfirstmainroleplaybook.yml"
+-'  7  21  ~/myfirstmainroleplaybook.yml
+|4,39,7,21,1632820727,"~/myfirstmainroleplaybook.yml"
+-'  7  21  ~/myfirstmainroleplaybook.yml
+|4,39,7,21,1632820727,"~/myfirstmainroleplaybook.yml"
+-'  7  21  ~/myfirstmainroleplaybook.yml
+|4,39,7,21,1632820727,"~/myfirstmainroleplaybook.yml"
+-'  7  21  ~/myfirstmainroleplaybook.yml
+|4,39,7,21,1632820727,"~/myfirstmainroleplaybook.yml"
+-'  7  21  ~/myfirstmainroleplaybook.yml
+|4,39,7,21,1632820727,"~/myfirstmainroleplaybook.yml"
+-'  7  21  ~/myfirstmainroleplaybook.yml
+|4,39,7,21,1632820727,"~/myfirstmainroleplaybook.yml"
+-'  7  21  ~/myfirstmainroleplaybook.yml
+|4,39,7,21,1632820727,"~/myfirstmainroleplaybook.yml"
+-'  7  21  ~/myfirstmainroleplaybook.yml
+|4,39,7,21,1632820727,"~/myfirstmainroleplaybook.yml"
+-'  7  21  ~/myfirstmainroleplaybook.yml
+|4,39,7,21,1632820727,"~/myfirstmainroleplaybook.yml"
+-'  7  21  ~/myfirstmainroleplaybook.yml
+|4,39,7,21,1632820727,"~/myfirstmainroleplaybook.yml"
+-'  7  21  ~/myfirstmainroleplaybook.yml
+|4,39,7,21,1632820727,"~/myfirstmainroleplaybook.yml"
+-'  7  21  ~/myfirstmainroleplaybook.yml
+|4,39,7,21,1632820727,"~/myfirstmainroleplaybook.yml"
+-'  7  21  ~/myfirstmainroleplaybook.yml
+|4,39,7,21,1632820727,"~/myfirstmainroleplaybook.yml"
+-'  7  21  ~/myfirstmainroleplaybook.yml
+|4,39,7,21,1632820727,"~/myfirstmainroleplaybook.yml"
+-'  7  21  ~/myfirstmainroleplaybook.yml
+|4,39,7,21,1632820727,"~/myfirstmainroleplaybook.yml"
+-'  7  21  ~/myfirstmainroleplaybook.yml
+|4,39,7,21,1632820727,"~/myfirstmainroleplaybook.yml"
+-'  7  21  ~/myfirstmainroleplaybook.yml
+|4,39,7,21,1632820727,"~/myfirstmainroleplaybook.yml"
+-'  7  21  ~/myfirstmainroleplaybook.yml
+|4,39,7,21,1632820727,"~/myfirstmainroleplaybook.yml"
+-'  7  21  ~/myfirstmainroleplaybook.yml
+|4,39,7,21,1632820727,"~/myfirstmainroleplaybook.yml"
+-'  7  21  ~/myfirstmainroleplaybook.yml
+|4,39,7,21,1632820727,"~/myfirstmainroleplaybook.yml"
+-'  7  21  ~/myfirstmainroleplaybook.yml
+|4,39,7,21,1632820727,"~/myfirstmainroleplaybook.yml"
+-'  7  21  ~/myfirstmainroleplaybook.yml
+|4,39,7,21,1632820727,"~/myfirstmainroleplaybook.yml"
+-'  7  21  ~/myfirstmainroleplaybook.yml
+|4,39,7,21,1632820727,"~/myfirstmainroleplaybook.yml"
+-'  7  21  ~/myfirstmainroleplaybook.yml
+|4,39,7,21,1632820727,"~/myfirstmainroleplaybook.yml"
+-'  7  21  ~/myfirstmainroleplaybook.yml
+|4,39,7,21,1632820727,"~/myfirstmainroleplaybook.yml"
+-'  9  19  ~/installserverstartserviceandcopyindex.html.yml
+|4,39,9,19,1632820586,"~/installserverstartserviceandcopyindex.html.yml"
+-'  9  19  ~/installserverstartserviceandcopyindex.html.yml
+|4,39,9,19,1632820586,"~/installserverstartserviceandcopyindex.html.yml"
+-'  9  19  ~/installserverstartserviceandcopyindex.html.yml
+|4,39,9,19,1632820586,"~/installserverstartserviceandcopyindex.html.yml"
+-'  9  19  ~/installserverstartserviceandcopyindex.html.yml
+|4,39,9,19,1632820586,"~/installserverstartserviceandcopyindex.html.yml"
+-'  9  19  ~/installserverstartserviceandcopyindex.html.yml
+|4,39,9,19,1632820586,"~/installserverstartserviceandcopyindex.html.yml"
+-'  9  19  ~/installserverstartserviceandcopyindex.html.yml
+|4,39,9,19,1632820586,"~/installserverstartserviceandcopyindex.html.yml"
+-'  9  19  ~/installserverstartserviceandcopyindex.html.yml
+|4,39,9,19,1632820586,"~/installserverstartserviceandcopyindex.html.yml"
+-'  9  19  ~/installserverstartserviceandcopyindex.html.yml
+|4,39,9,19,1632820586,"~/installserverstartserviceandcopyindex.html.yml"
+-'  9  19  ~/installserverstartserviceandcopyindex.html.yml
+|4,39,9,19,1632820586,"~/installserverstartserviceandcopyindex.html.yml"
+-'  9  19  ~/installserverstartserviceandcopyindex.html.yml
+|4,39,9,19,1632820586,"~/installserverstartserviceandcopyindex.html.yml"
+-'  9  19  ~/installserverstartserviceandcopyindex.html.yml
+|4,39,9,19,1632820586,"~/installserverstartserviceandcopyindex.html.yml"
+-'  9  19  ~/installserverstartserviceandcopyindex.html.yml
+|4,39,9,19,1632820586,"~/installserverstartserviceandcopyindex.html.yml"
+-'  9  19  ~/installserverstartserviceandcopyindex.html.yml
+|4,39,9,19,1632820586,"~/installserverstartserviceandcopyindex.html.yml"
+-'  9  19  ~/installserverstartserviceandcopyindex.html.yml
+|4,39,9,19,1632820586,"~/installserverstartserviceandcopyindex.html.yml"
+-'  9  19  ~/installserverstartserviceandcopyindex.html.yml
+|4,39,9,19,1632820586,"~/installserverstartserviceandcopyindex.html.yml"
+-'  9  19  ~/installserverstartserviceandcopyindex.html.yml
+|4,39,9,19,1632820586,"~/installserverstartserviceandcopyindex.html.yml"
+-'  9  19  ~/installserverstartserviceandcopyindex.html.yml
+|4,39,9,19,1632820586,"~/installserverstartserviceandcopyindex.html.yml"
+-'  9  19  ~/installserverstartserviceandcopyindex.html.yml
+|4,39,9,19,1632820586,"~/installserverstartserviceandcopyindex.html.yml"
+-'  9  19  ~/installserverstartserviceandcopyindex.html.yml
+|4,39,9,19,1632820586,"~/installserverstartserviceandcopyindex.html.yml"
+-'  9  19  ~/installserverstartserviceandcopyindex.html.yml
+|4,39,9,19,1632820586,"~/installserverstartserviceandcopyindex.html.yml"
+-'  9  19  ~/installserverstartserviceandcopyindex.html.yml
+|4,39,9,19,1632820586,"~/installserverstartserviceandcopyindex.html.yml"
+-'  9  19  ~/installserverstartserviceandcopyindex.html.yml
+|4,39,9,19,1632820586,"~/installserverstartserviceandcopyindex.html.yml"
+-'  9  19  ~/installserverstartserviceandcopyindex.html.yml
+|4,39,9,19,1632820586,"~/installserverstartserviceandcopyindex.html.yml"
+-'  9  19  ~/installserverstartserviceandcopyindex.html.yml
+|4,39,9,19,1632820586,"~/installserverstartserviceandcopyindex.html.yml"
+-'  9  19  ~/installserverstartserviceandcopyindex.html.yml
+|4,39,9,19,1632820586,"~/installserverstartserviceandcopyindex.html.yml"
+-'  9  19  ~/installserverstartserviceandcopyindex.html.yml
+|4,39,9,19,1632820586,"~/installserverstartserviceandcopyindex.html.yml"
+-'  9  19  ~/installserverstartserviceandcopyindex.html.yml
+|4,39,9,19,1632820586,"~/installserverstartserviceandcopyindex.html.yml"
+-'  9  19  ~/installserverstartserviceandcopyindex.html.yml
+|4,39,9,19,1632820586,"~/installserverstartserviceandcopyindex.html.yml"
+-'  9  19  ~/installserverstartserviceandcopyindex.html.yml
+|4,39,9,19,1632820586,"~/installserverstartserviceandcopyindex.html.yml"
+-'  9  19  ~/installserverstartserviceandcopyindex.html.yml
+|4,39,9,19,1632820586,"~/installserverstartserviceandcopyindex.html.yml"
+-'  9  19  ~/installserverstartserviceandcopyindex.html.yml
+|4,39,9,19,1632820586,"~/installserverstartserviceandcopyindex.html.yml"
+-'  9  19  ~/installserverstartserviceandcopyindex.html.yml
+|4,39,9,19,1632820586,"~/installserverstartserviceandcopyindex.html.yml"
+-'  1  0  ~/myfirstmainroleplaybook.yml
+|4,39,1,0,1632820448,"~/myfirstmainroleplaybook.yml"
+-'  1  0  ~/myfirstmainroleplaybook.yml
+|4,39,1,0,1632820448,"~/myfirstmainroleplaybook.yml"
+-'  1  0  ~/myfirstmainroleplaybook.yml
+|4,39,1,0,1632820448,"~/myfirstmainroleplaybook.yml"
+-'  1  0  ~/myfirstmainroleplaybook.yml
+|4,39,1,0,1632820448,"~/myfirstmainroleplaybook.yml"
+-'  1  0  ~/myfirstmainroleplaybook.yml
+|4,39,1,0,1632820448,"~/myfirstmainroleplaybook.yml"
+-'  1  0  ~/myfirstmainroleplaybook.yml
+|4,39,1,0,1632820448,"~/myfirstmainroleplaybook.yml"
+-'  1  0  ~/myfirstmainroleplaybook.yml
+|4,39,1,0,1632820448,"~/myfirstmainroleplaybook.yml"
+-'  1  0  ~/myfirstmainroleplaybook.yml
+|4,39,1,0,1632820448,"~/myfirstmainroleplaybook.yml"
+-'  1  0  ~/myfirstmainroleplaybook.yml
+|4,39,1,0,1632820448,"~/myfirstmainroleplaybook.yml"
 
 # History of marks within files (newest to oldest):
 
+> ~/apche-tomcat-role/handlers/main.yml
+	*	1632821425	0
+	"	12	3
+	^	12	4
+	.	12	4
+	+	12	18
+	+	7	0
+	+	3	21
+	+	8	21
+	+	5	59
+	+	4	2
+	+	9	2
+	+	5	2
+	+	6	2
+	+	5	2
+	+	6	3
+	+	10	4
+	+	11	4
+	+	12	4
+
+> ~/apche-tomcat-role/tasks/main.yml
+	*	1632821295	0
+	"	7	6
+	^	7	7
+	.	7	7
+	+	6	0
+	+	7	25
+	+	4	2
+	+	5	4
+	+	6	4
+	+	7	9
+	+	3	22
+	+	7	7
+
+> ~/myfirstmainroleplaybook.yml
+	*	1632820723	0
+	"	7	21
+	^	7	22
+	.	7	21
+	+	1	3
+	+	7	2
+	+	6	1
+	+	7	21
+
+> ~/installserverstartserviceandcopyindex.html.yml
+	*	1632820580	0
+	"	9	19
+	^	9	20
+	.	12	59
+	+	2	43
+	+	13	25
+	+	12	49
+	+	12	59
+
 > ~/setuptomcat.yml
-	*	1632763595	0
-	"	40	0
+	*	1632819505	0
+	"	10	0
 	^	36	15
 	.	36	14
 	+	7	33
@@ -314,6 +376,37 @@
 	+	37	4
 	+	38	6
 	+	36	14
+
+> ~/usingwith_itemsmultiusercreation.yml
+	*	1632806096	0
+	"	13	0
+	^	13	1
+	.	13	1
+	+	6	22
+	+	7	19
+	+	8	16
+	+	9	14
+	+	14	0
+	+	11	13
+	+	13	1
+
+> ~/tags.yml
+	*	1632805683	0
+	"	11	0
+	^	11	0
+	.	11	0
+	+	14	29
+	+	15	0
+	+	10	33
+	+	11	0
+
+> ~/ignore_errors.yml
+	*	1632805022	0
+	"	12	0
+	^	12	0
+	.	12	0
+	+	8	15
+	+	12	0
 
 > ~/myusers.yml
 	*	1632753806	0
@@ -471,112 +564,3 @@
 	^	1	19
 	.	1	18
 	+	1	18
-
-> ~/installserverstartserviceandcopyindex.html.yml
-	*	1632667251	0
-	"	14	25
-	^	14	26
-	.	13	25
-	+	2	43
-	+	13	25
-
-> ~/stopserviceuninstall.yml
-	*	1632666543	0
-	"	7	1
-	^	7	2
-	.	6	7
-	+	2	41
-	+	5	27
-	+	15	20
-	+	5	1
-	+	12	12
-	+	10	18
-	+	15	18
-	+	11	3
-	+	7	15
-	+	6	7
-
-> ~/installstartservice.yml
-	*	1632665154	0
-	"	14	17
-	^	14	18
-	.	14	17
-	+	2	1
-	+	3	0
-	+	2	47
-	+	3	11
-	+	8	16
-	+	6	32
-	+	7	3
-	+	13	20
-	+	10	26
-	+	11	10
-	+	14	17
-
-> ~/copyingfilecontenttonewfile.yml
-	*	1632663552	0
-	"	10	35
-	^	10	36
-	.	10	35
-	+	10	35
-
-> ~/copyingfiles.yml
-	*	1632662648	0
-	"	10	25
-	^	10	26
-	.	10	25
-	+	1	0
-	+	1	3
-	+	2	0
-	+	2	7
-	+	3	1
-	+	6	0
-	+	8	2
-	+	7	48
-	+	12	0
-	+	8	2
-	+	11	13
-	+	8	5
-	+	9	25
-	+	11	11
-	+	9	36
-	+	11	1
-	+	8	2
-	+	3	8
-	+	10	25
-
-> ~/file.yml
-	*	1632650484	0
-	"	8	5
-	^	8	6
-	.	8	5
-	+	5	22
-	+	5	60
-	+	5	30
-	+	5	52
-	+	5	22
-	+	9	0
-	+	5	30
-	+	7	28
-	+	8	18
-	+	7	29
-	+	8	11
-	+	6	3
-	+	5	20
-	+	8	18
-	+	6	2
-	+	7	4
-	+	8	4
-	+	5	2
-	+	6	3
-	+	7	5
-	+	8	5
-
-> ~/directory.yml
-	*	1632649962	0
-	"	8	0
-	^	8	0
-	.	8	0
-	+	7	21
-	+	6	32
-	+	8	0

@@ -1,0 +1,7 @@
+---
+- name: installtion copying inedx.html file and start apache http server
+  hosts: all
+  become: true
+
+  roles:
+  - apche-tomcat-role 

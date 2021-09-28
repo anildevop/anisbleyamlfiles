@@ -1,0 +1,13 @@
+---
+# handlers file for apche-tomcat-role
+- name: install apache
+  copy:
+    src: /home/ansadmin/apche-tomcat-role/files/index.html
+    dest: /var/www/html/
+
+- name: install apache
+  service:
+    name: httpd
+    state: started
+    enabled: yes
+
