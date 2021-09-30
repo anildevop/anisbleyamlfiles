@@ -552,3 +552,63 @@ vi usingwith_itemsmultiusercreation.yml
 ansible all -a "tail -4 /etc/passwd"
 ansible-playbook usingwith_itemsmultiusercreation.yml
 ansible all -a "tail -4 /etc/passwd"
+clear
+ls
+vi setuptomcat.yml
+vi installserverstartserviceandcopyindex.html.yml
+clear
+ls
+ansible-galaxy apche-tomcat-role
+clear
+ansible-galaxy init apche-tomcat-role
+ls
+cd apche-tomcat-role
+ls
+tree
+sudo yum install tree -y
+clear
+tree
+rm -rf defaults
+rm -rf meta
+rm -rf README.md
+rm -rf tests
+rm -rf templates
+rm -rf vars
+ls
+clear
+tree
+vi tasks
+vi tasks/main.yml
+vi handlers/main.yml
+cd tree
+cd files
+pwd
+ls
+cd ..
+ls
+cp index.html /home/ansadmin/apche-tomcat-role/
+cd /home/ansadmin/apche-tomcat-role/files
+ls
+vi  /home/ansadmin/apche-tomcat-role/handlers/main.yml
+vi /home/ansadmin/apche-tomcat-role/tasks/main.yml
+cd ..
+clear
+ls
+vi myfirstmainroleplaybook.yml
+cat  myfirstmainroleplaybook.yml
+ansible-palybook  myfirstmainroleplaybook.yml
+ansible-playbook  myfirstmainroleplaybook.yml
+vi /home/ansadmin/apche-tomcat-role/tasks/main.yml
+ansible-playbook  myfirstmainroleplaybook.yml
+vi  /home/ansadmin/apche-tomcat-role/handlers/main.yml
+ansible-playbook  myfirstmainroleplaybook.yml
+vi /home/ansadmin/apche-tomcat-role/tasks/main.yml
+ansible-playbook  myfirstmainroleplaybook.yml
+vi /home/ansadmin/apche-tomcat-role/tasks/main.yml
+ansible-playbook  myfirstmainroleplaybook.yml
+vi  /home/ansadmin/apche-tomcat-role/handlers/main.yml
+ansible-playbook  myfirstmainroleplaybook.yml
+git add .
+git commit -m tasks and roles
+git commit -m tasksandroles
+git push origin main
